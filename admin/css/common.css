@@ -1,0 +1,73 @@
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+
+  -webkit-appearance: none;
+  margin: 0;
+
+}
+
+input[type=number] 
+{
+
+  -moz-appearance: textfield;
+
+}
+.custom-bg
+{
+
+background-color: yellow;
+border: 1px solid yellow;
+
+}
+.custom-bg:hover
+{
+
+background-color: red;
+border-color: red;
+
+}
+.custom-alert
+{
+position: fixed;
+top: 100px;
+right: 25px;
+}
+
+
+
+#dashboard-menu
+{
+ position: fixed;
+ height: 100%;
+z-index: 11;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#main-content
+{
+ margin-top: 20px;
+
+}
+
